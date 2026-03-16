@@ -7,7 +7,7 @@ import { vchat } from 'vchat'
  */
 vchat.onMessage((notice) => {
     vchat.openApp()
-    vchat.openTopSession()
+    vchat.openUnreadSession()
     vchat.sendText("Hello world")
     vchat.finish()
 })
